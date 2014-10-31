@@ -10,10 +10,13 @@
 		619301B21A041646003BB1D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301B11A041646003BB1D6 /* main.m */; };
 		619301B51A041646003BB1D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301B41A041646003BB1D6 /* AppDelegate.m */; };
 		619301B81A041646003BB1D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301B71A041646003BB1D6 /* ViewController.m */; };
-		619301BB1A041646003BB1D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619301B91A041646003BB1D6 /* Main.storyboard */; };
 		619301BD1A041646003BB1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619301BC1A041646003BB1D6 /* Images.xcassets */; };
-		619301C01A041646003BB1D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619301BE1A041646003BB1D6 /* LaunchScreen.xib */; };
 		619301CC1A041646003BB1D6 /* CustomSeguesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301CB1A041646003BB1D6 /* CustomSeguesTests.m */; };
+		619301E01A0416A2003BB1D6 /* HotspotModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301D61A0416A2003BB1D6 /* HotspotModalSegue.m */; };
+		619301E11A0416A2003BB1D6 /* HotspotModalUnwindSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301D81A0416A2003BB1D6 /* HotspotModalUnwindSegue.m */; };
+		619301E21A0416A2003BB1D6 /* HotspotModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301DA1A0416A2003BB1D6 /* HotspotModalViewController.m */; };
+		619301E31A0416A2003BB1D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619301DB1A0416A2003BB1D6 /* Main.storyboard */; };
+		619301E41A0416A2003BB1D6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619301DD1A0416A2003BB1D6 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,19 @@
 		619301B41A041646003BB1D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		619301B61A041646003BB1D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		619301B71A041646003BB1D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		619301BA1A041646003BB1D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		619301BC1A041646003BB1D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		619301BF1A041646003BB1D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		619301C51A041646003BB1D6 /* CustomSeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSeguesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619301CA1A041646003BB1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619301CB1A041646003BB1D6 /* CustomSeguesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSeguesTests.m; sourceTree = "<group>"; };
+		619301D51A0416A2003BB1D6 /* HotspotModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotModalSegue.h; sourceTree = "<group>"; };
+		619301D61A0416A2003BB1D6 /* HotspotModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotModalSegue.m; sourceTree = "<group>"; };
+		619301D71A0416A2003BB1D6 /* HotspotModalUnwindSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotModalUnwindSegue.h; sourceTree = "<group>"; };
+		619301D81A0416A2003BB1D6 /* HotspotModalUnwindSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotModalUnwindSegue.m; sourceTree = "<group>"; };
+		619301D91A0416A2003BB1D6 /* HotspotModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotspotModalViewController.h; sourceTree = "<group>"; };
+		619301DA1A0416A2003BB1D6 /* HotspotModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotspotModalViewController.m; sourceTree = "<group>"; };
+		619301DB1A0416A2003BB1D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		619301DC1A0416A2003BB1D6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		619301DD1A0416A2003BB1D6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +91,20 @@
 		619301AE1A041646003BB1D6 /* CustomSegues */ = {
 			isa = PBXGroup;
 			children = (
+				619301D51A0416A2003BB1D6 /* HotspotModalSegue.h */,
+				619301D61A0416A2003BB1D6 /* HotspotModalSegue.m */,
+				619301D71A0416A2003BB1D6 /* HotspotModalUnwindSegue.h */,
+				619301D81A0416A2003BB1D6 /* HotspotModalUnwindSegue.m */,
+				619301D91A0416A2003BB1D6 /* HotspotModalViewController.h */,
+				619301DA1A0416A2003BB1D6 /* HotspotModalViewController.m */,
+				619301DB1A0416A2003BB1D6 /* Main.storyboard */,
+				619301DC1A0416A2003BB1D6 /* RootViewController.h */,
+				619301DD1A0416A2003BB1D6 /* RootViewController.m */,
 				619301B31A041646003BB1D6 /* AppDelegate.h */,
 				619301B41A041646003BB1D6 /* AppDelegate.m */,
 				619301B61A041646003BB1D6 /* ViewController.h */,
 				619301B71A041646003BB1D6 /* ViewController.m */,
-				619301B91A041646003BB1D6 /* Main.storyboard */,
 				619301BC1A041646003BB1D6 /* Images.xcassets */,
-				619301BE1A041646003BB1D6 /* LaunchScreen.xib */,
 				619301AF1A041646003BB1D6 /* Supporting Files */,
 			);
 			path = CustomSegues;
@@ -199,9 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619301BB1A041646003BB1D6 /* Main.storyboard in Resources */,
-				619301C01A041646003BB1D6 /* LaunchScreen.xib in Resources */,
 				619301BD1A041646003BB1D6 /* Images.xcassets in Resources */,
+				619301E31A0416A2003BB1D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				619301B81A041646003BB1D6 /* ViewController.m in Sources */,
+				619301E41A0416A2003BB1D6 /* RootViewController.m in Sources */,
+				619301E11A0416A2003BB1D6 /* HotspotModalUnwindSegue.m in Sources */,
+				619301E01A0416A2003BB1D6 /* HotspotModalSegue.m in Sources */,
 				619301B51A041646003BB1D6 /* AppDelegate.m in Sources */,
+				619301E21A0416A2003BB1D6 /* HotspotModalViewController.m in Sources */,
 				619301B21A041646003BB1D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +262,6 @@
 			targetProxy = 619301C61A041646003BB1D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		619301B91A041646003BB1D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				619301BA1A041646003BB1D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		619301BE1A041646003BB1D6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				619301BF1A041646003BB1D6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		619301CD1A041646003BB1D6 /* Debug */ = {
@@ -414,6 +415,7 @@
 				619301D11A041646003BB1D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619301D21A041646003BB1D6 /* Build configuration list for PBXNativeTarget "CustomSeguesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +424,7 @@
 				619301D41A041646003BB1D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HotspotModalViewController.h"
 
 @interface ViewController : UIViewController
+{
+    HotspotModalViewController *hotspotViewController;
+}
+
+- (IBAction)openHotspotModal:(id)sender;
+- (IBAction)exitHotspotModal:(UIStoryboardSegue *)sender;
 
 
 @end
